@@ -14,6 +14,12 @@
             display: block; /* Ensures image is displayed as a block element */
             margin: 0 auto; /* Centers the image horizontally */
         }
+
+        @media all and (max-width: 767px) { /* Media query for all screens up to 767px width (typical mobile phones) */
+            img {
+                width: 100%; /* Sets image width to 100% of the container */
+            }
+        }
     </style>
 </head>
 <body>
